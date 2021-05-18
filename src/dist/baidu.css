@@ -1,5 +1,14 @@
 body {
-  background-color: #444444; }
+  background-color: #444444 !important; }
+
+#s_top_wrap .s-center-box {
+  background-color: #555555; }
+
+#bottom_layer {
+  background-color: #555555; }
+
+.c-color-t {
+  color: #969696; }
 
 #head_wrapper.s-ps-islite .fm {
   display: flex; }
@@ -7,10 +16,10 @@ body {
 #head_wrapper .s_ipt_wr {
   border: none; }
 
-.s-skin-hasbg #head_wrapper #form #kw {
+#head_wrapper #form #kw {
   border: 2px solid #c4c7ce; }
 
-.s-skin-hasbg #head_wrapper .s_btn {
+#head_wrapper .s_btn {
   background-color: #969696; }
 
 .new-pmd.c-container {
