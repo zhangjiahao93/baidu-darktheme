@@ -1,0 +1,129 @@
+$color1: #ccbbbb;
+$color2: #969696;
+$link: $color2;
+$color_light: #ffffff;
+
+$bg3: #444444;
+$bg4: #555555;
+$bg5: #666666;
+$bg_light: #3d3d3d;
+$btn_bg: #969696;
+
+body {
+  background-color: $bg3;
+}
+a {
+  color: $link;
+}
+#rs {
+  background-color: $bg3;
+}
+#content_right {
+  a:link {
+    color: $color2;
+  }
+}
+
+.wrapper_new {
+  background-color: $bg3;
+  // 导航栏右侧显示
+  #u {
+    a {
+      color: $link;
+    }
+  }
+  // 搜索展示栏样式
+  #form {
+    .bdsug-new {
+      ul {
+        border: none;
+        li {
+          color: $color_light;
+          b {
+            color: $color1;
+          }
+        }
+      }
+    }
+  }
+}
+#head {
+  .head_wrapper {
+    background: $bg_light;
+  }
+  .bdsug {
+    background: $bg_light;
+    color: $color_light;
+  }
+}
+// 搜索栏背景
+#su {
+  background: $btn_bg;
+}
+#kw {
+  color: $color2;
+}
+.wrapper_new {
+  .s_ipt_wr {
+    border: 2px solid $color2;
+  }
+  #s_tab {
+    background-color: $bg_light;
+    color: $color2;
+    .cur-tab {
+      color: $color_light;
+    }
+    a {
+      color: $link;
+    }
+    a:hover {
+      color: $color_light;
+    }
+  }
+}
+// 搜索内容部分
+.new-pmd {
+  .c-abstract {
+    color: $color1;
+  }
+  // 百度热榜
+  .c-color-t{
+    color: $color_light;
+  }
+}
+// 分页部分
+.wrapper_new .sam_newgrid~#page {
+  strong{
+    background-color: $bg5;
+    color: $link;
+  }
+  a{
+    background-color: $bg4;
+    color: $link;
+  }
+}
+// 页尾
+#page {
+  .page-inner {
+    background-color: $bg_light;
+  }
+}
+.wrapper_new {
+  .sam_newgrid {
+    #page {
+      a {
+        background-color: $btn_bg;
+        color: $color1;
+      }
+      strong {
+        background-color: $btn_bg;
+      }
+    }
+  }
+  #foot {
+    background-color: $bg_light;
+    #help {
+      background-color: $bg_light;
+    }
+  }
+}
