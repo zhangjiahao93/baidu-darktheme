@@ -1,6 +1,18 @@
 body {
   background-color: #444444; }
 
+#head_wrapper.s-ps-islite .fm {
+  display: flex; }
+
+#head_wrapper .s_ipt_wr {
+  border: none; }
+
+.s-skin-hasbg #head_wrapper #form #kw {
+  border: 2px solid #c4c7ce; }
+
+.s-skin-hasbg #head_wrapper .s_btn {
+  background-color: #969696; }
+
 a {
   color: #969696; }
 
@@ -22,7 +34,7 @@ a {
         color: #ccbbbb; }
 
 #head .head_wrapper {
-  background: #3d3d3d; }
+  background: #444444; }
 
 #head .bdsug {
   background: #3d3d3d;
@@ -38,7 +50,7 @@ a {
   border: 2px solid #969696; }
 
 .wrapper_new #s_tab {
-  background-color: #3d3d3d;
+  background-color: #444444;
   color: #969696; }
   .wrapper_new #s_tab .cur-tab {
     color: #ffffff; }

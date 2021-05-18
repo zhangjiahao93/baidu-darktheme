@@ -12,6 +12,20 @@ $btn_bg: #969696;
 body {
   background-color: $bg3;
 }
+// 兼容首页样式
+#head_wrapper.s-ps-islite .fm{
+  display: flex;
+}
+#head_wrapper .s_ipt_wr {
+  border:none;
+}
+.s-skin-hasbg #head_wrapper #form #kw{
+  border: 2px solid #c4c7ce;
+}
+.s-skin-hasbg #head_wrapper .s_btn{
+  background-color: $btn_bg;
+}
+
 a {
   color: $link;
 }
@@ -49,7 +63,7 @@ a {
 }
 #head {
   .head_wrapper {
-    background: $bg_light;
+    background: $bg3;
   }
   .bdsug {
     background: $bg_light;
@@ -68,7 +82,7 @@ a {
     border: 2px solid $color2;
   }
   #s_tab {
-    background-color: $bg_light;
+    background-color: $bg3;
     color: $color2;
     .cur-tab {
       color: $color_light;
